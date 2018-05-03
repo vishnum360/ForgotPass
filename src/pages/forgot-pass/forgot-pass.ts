@@ -36,7 +36,7 @@ export class ForgotPassPage {
           //this.navCtrl.pop()  RETURN TO LOGIN PAGE
         }, 1000);
         loader.dismiss();
-        this.mymsg = "A mail has been sent to you";
+        this.mymsg = "A mail has been sent to You";
       } else {
         this.mymsg = "Email not found with us";
       }
